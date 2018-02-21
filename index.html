@@ -3,20 +3,18 @@
 <head>
 <meta charset="utf-8">
 <title>ESCAPE!</title>
-<link href="css/foundation.css" rel="stylesheet" type="text/css" media="screen">
-<link href="css/foundation.min.css" rel="stylesheet" type="text/css" media="screen">
 <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 <link href="https://fonts.googleapis.com/css?family=Bungee|Faster+One" rel="stylesheet">
 </head>
 <body>
 <div id="container" class="row">
 	<h1>ESCAPE!</h1>
-	<div id="scenerio" class="columns">You wake up, in a cold room with no memory of how you got there. The room is dark so you cannot see anything. You hear two myserious being speaking close by but you cannot understand what they are saying.</div>
+	<div id="scenerio">You wake up, in a cold room with no memory of how you got there. The room is dark so you cannot see anything. You hear two myserious being speaking close by but you cannot understand what they are saying.</div>
 	<div id="prompt">Do you:</div>
-	<div class="small-centered columns" id="restart">Restart</div>
-	<div class="small-10 small-centered medium-4 columns" id="option1">Try to speak to the mysterious beings</div>
-	<div class="small-10 small-centered medium-4 columns" id="option2">Stay silent</div>
-	<form id="questionForm" class="columns">
+	<div id="restart">Restart</div>
+	<div id="option1">Try to speak to the mysterious beings</div>
+	<div id="option2">Stay silent</div>
+	<form id="questionForm">
 		<input type="number" required id="input" min="1" max="10">
 		<input type="button" id="submit" value="submit">
 	</form>
@@ -25,10 +23,6 @@
 	<div id="hint3">YOU BETTER GET UP</div>
 </div>
 
-<script src="js/vendor/foundation.js"></script>
-<script src="js/vendor/foundation.min.js"></script>
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/what-input.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
